@@ -1,0 +1,139 @@
+body {
+    color: white;
+    background: black;
+
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 20px;
+
+    border: 3px solid white;
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-stroke: 0.75px #a0c8f0;
+	-webkit-text-fill-color: #386ca0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    -webkit-text-stroke: 0.75px #a0c8f0;
+	-webkit-text-fill-color: #386ca0;
+}
+
+hr {
+    max-width: 750px;
+    position: relative;
+    top: 0px;
+    border: none;
+    height: 1px;
+    background: white;
+    margin-bottom: 5px;
+}
+
+ul#horizontal-list {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #282727;
+  }
+  
+p {
+    font-size: 16px;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+    /* overflow: hidden; */
+
+    word-break: normal;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+/* color: #a0c8f0; */
+-webkit-text-stroke: 0.75px #386ca0;
+-webkit-text-fill-color: #a0c8f0;;
+text-align: center;
+padding: 10px 50px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+a {
+	color: #a0c8f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #386ca0;
+}
+
+img {
+    margin: auto;
+}
+
+.navbar{
+    display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.headshot {
+    display: block;
+    /* border-radius: 100%; */
+	/* max-height: 10rem; */
+    border: 2px solid white; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.clear:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.icon {
+	float: left;
+	margin-right: 10px;
+	filter: invert(77%) sepia(34%) saturate(572%) hue-rotate(182deg) brightness(97%) contrast(94%);
+}
+
+.icon:hover {
+	filter: invert(39%) sepia(10%) saturate(2945%) hue-rotate(169deg) brightness(94%) contrast(86%);
+}
+
+.pane-left {
+	float: left;
+	/* margin-left: 10px;
+    margin-right: 10px; */
+    margin: auto;
+	width: 49%;
+}
+
+.pane-right {
+	float: right;
+	width: 49%;
+}
+
